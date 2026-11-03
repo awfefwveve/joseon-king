@@ -1,0 +1,39 @@
+{
+  "items": [
+    {
+      "id": "yi_i", "name": "이이", "faction": "west", "leaveYear": 1584, "color": "#3E6FB0",
+      "persona": "율곡. 개혁론자로 공납의 폐단을 고치는 수미법을 건의했고, 동인과 서인을 고루 쓰자는 조제보합을 주장했다. 서인의 종장으로 여겨진다.",
+      "speechStyle": "차분하고 논리적이며, 폐단의 근본을 짚어 개혁을 권한다",
+      "supports": ["tribute_reform", "balance", "raise_army"],
+      "opposes": ["suppress_censors", "tax_raise"]
+    },
+    {
+      "id": "jeong_cheol", "name": "정철", "faction": "west", "leaveYear": 0, "color": "#2B4F86",
+      "persona": "송강. 서인의 강경파로, 정여립 모반 사건 때 옥사를 맡아 동인을 엄히 다스렸다. 문장이 뛰어났다.",
+      "speechStyle": "직설적이고 강경하며, 상대 당을 경계한다",
+      "supports": ["appoint_west", "suppress_censors"],
+      "opposes": ["appoint_east", "balance"]
+    },
+    {
+      "id": "ryu_seongryong", "name": "류성룡", "faction": "east", "leaveYear": 0, "color": "#B05A3E",
+      "persona": "서애. 동인의 실무형 재상으로, 전쟁에 대비해 인재를 천거하고 방비를 챙겼다. 뒤에 징비록을 남겼다.",
+      "speechStyle": "신중하고 실무적이며, 대비와 백성의 형편을 함께 따진다",
+      "supports": ["fortify", "raise_army", "relief"],
+      "opposes": ["tax_raise"]
+    },
+    {
+      "id": "yi_sanhae", "name": "이산해", "faction": "east", "leaveYear": 0, "color": "#8A3A27",
+      "persona": "아계. 동인의 중진으로 인사와 정국 운영에 능했다.",
+      "speechStyle": "노련하고 조심스러우며, 조정의 세력 균형과 인사를 먼저 생각한다",
+      "supports": ["appoint_east"],
+      "opposes": ["appoint_west", "tribute_reform"]
+    },
+    {
+      "id": "sin_rip", "name": "신립", "faction": "none", "leaveYear": 0, "color": "#5E6B4A",
+      "persona": "무장. 북방에서 여진을 막아 이름을 떨친 장수다.",
+      "speechStyle": "짧고 단호한 무인의 말투, 군사와 방비를 앞세운다",
+      "supports": ["raise_army", "fortify"],
+      "opposes": ["tax_cut"]
+    }
+  ]
+}

@@ -1,0 +1,262 @@
+{
+  "items": [
+    {
+      "id": "east_west_split", "title": "이조전랑 자리 다툼", "priority": 100, "chance": 1, "once": true,
+      "minYear": 1575, "maxYear": 1575,
+      "source": "선조 8년(1575) 동서분당",
+      "body": "이조전랑 자리를 두고 김효원과 심의겸이 맞서고 있사옵니다. 김효원을 따르는 이들을 동인, 심의겸을 따르는 이들을 서인이라 부르며 조정이 둘로 갈라지려 하옵니다.",
+      "choices": [
+        { "text": "김효원의 편을 든다", "result": "동인이 기세를 올리고 서인이 원망한다.",
+          "effects": [ { "stat": "east", "value": 8 }, { "stat": "west", "value": -8 } ] },
+        { "text": "심의겸의 편을 든다", "result": "서인이 기세를 올리고 동인이 원망한다.",
+          "effects": [ { "stat": "west", "value": 8 }, { "stat": "east", "value": -8 } ] },
+        { "text": "둘 다 외직으로 내보낸다", "result": "양쪽 모두 불만이나, 임금이 중심을 잡았다는 평이 돈다.",
+          "effects": [ { "stat": "east", "value": -3 }, { "stat": "west", "value": -3 }, { "stat": "authority", "value": 3 } ] }
+      ]
+    },
+    {
+      "id": "nitanggae", "title": "니탕개의 난", "priority": 100, "chance": 1, "once": true,
+      "minYear": 1583, "maxYear": 1583,
+      "source": "선조 16년(1583)",
+      "body": "함경도 경원에서 여진 니탕개가 무리를 이끌고 진보를 침범하였다는 장계가 올라왔사옵니다.",
+      "choices": [
+        { "text": "신립을 보내 진압한다", "result": "신립이 여진을 물리쳐 북방이 안정되었다.",
+          "effects": [ { "stat": "military", "value": -4 }, { "stat": "treasury", "value": -6 }, { "stat": "threat", "value": -3 }, { "stat": "people", "value": 3 } ] },
+        { "text": "재물을 내려 회유한다", "result": "잠시 잠잠하나, 여진이 조선을 얕보게 되었다.",
+          "effects": [ { "stat": "treasury", "value": -10 }, { "stat": "threat", "value": 3 } ] }
+      ]
+    },
+    {
+      "id": "yi_i_army", "title": "이이의 양병 건의", "priority": 99, "chance": 1, "once": true,
+      "minYear": 1583, "maxYear": 1583, "requireMinister": "yi_i",
+      "source": "전해지는 이야기 — 후대 기록에 전하며 사실 여부에 논란이 있음",
+      "body": "이이가 아뢰기를, 나라의 기세가 약하니 미리 군사를 길러 뜻밖의 변에 대비해야 한다 하옵니다.",
+      "choices": [
+        { "text": "받아들여 군사를 기른다", "result": "군사를 모으고 훈련을 시작하였다. 백성의 부담이 늘었다.",
+          "effects": [ { "stat": "military", "value": 12 }, { "stat": "treasury", "value": -15 }, { "stat": "people", "value": -3 }, { "stat": "west", "value": 3 } ] },
+        { "text": "태평한 때에 군사를 기르면 민심이 흔들린다며 보류한다", "result": "이이가 물러나며 탄식하였다.",
+          "effects": [ { "stat": "west", "value": -4 } ] }
+      ]
+    },
+    {
+      "id": "yi_i_death", "title": "이이 졸", "priority": 100, "chance": 1, "once": true,
+      "minYear": 1584, "maxYear": 1584,
+      "source": "선조 17년(1584)",
+      "body": "이이가 세상을 떠났사옵니다. 조정에서 조제보합을 말하던 목소리가 사라졌사옵니다.",
+      "choices": [
+        { "text": "예를 갖추어 후히 장사 지내게 한다", "result": "서인들이 임금의 뜻에 감읍하였다.",
+          "effects": [ { "stat": "treasury", "value": -3 }, { "stat": "west", "value": 4 } ] },
+        { "text": "법도대로 간소히 치르게 한다", "result": "서인들 사이에 서운한 기색이 돈다.",
+          "effects": [ { "stat": "west", "value": -2 } ] }
+      ]
+    },
+    {
+      "id": "jeong_yeorip", "title": "정여립 모반 고변", "priority": 100, "chance": 1, "once": true,
+      "minYear": 1589, "maxYear": 1589,
+      "source": "선조 22년(1589) 기축옥사",
+      "body": "황해도에서 정여립이 모반을 꾀한다는 고변이 올라왔사옵니다. 정여립은 동인과 가까웠던 자이옵니다.",
+      "choices": [
+        { "text": "관련자를 모두 잡아 대대적으로 국문한다", "result": "옥사가 크게 일어나 동인이 큰 화를 입었다.",
+          "effects": [ { "stat": "authority", "value": 8 }, { "stat": "east", "value": -15 }, { "stat": "people", "value": -5 } ] },
+        { "text": "주모자만 엄히 처벌한다", "result": "사건이 크게 번지지 않고 마무리되었다.",
+          "effects": [ { "stat": "authority", "value": 3 }, { "stat": "east", "value": -5 } ] },
+        { "text": "무고로 보고 고변한 자를 문책한다", "result": "동인은 안도하나 서인이 크게 반발한다.",
+          "effects": [ { "stat": "authority", "value": -5 }, { "stat": "west", "value": -8 } ] }
+      ]
+    },
+    {
+      "id": "envoy_report", "title": "통신사의 엇갈린 보고", "priority": 100, "chance": 1, "once": true,
+      "minYear": 1591, "maxYear": 1591,
+      "source": "선조 24년(1591) 통신사 귀국 보고",
+      "body": "일본에 다녀온 통신사가 돌아왔사옵니다. 정사 황윤길은 반드시 병화가 있을 것이라 하고, 부사 김성일은 그런 기미를 보지 못하였다 하옵니다.",
+      "choices": [
+        { "text": "황윤길의 말을 따라 대비한다", "result": "남쪽 성을 고치고 장수를 보내기 시작하였다.",
+          "action": "reveal_threat",
+          "effects": [ { "stat": "military", "value": 5 }, { "stat": "treasury", "value": -8 }, { "stat": "threat", "value": -5 } ] },
+        { "text": "김성일의 말을 따라 민심을 안정시킨다", "result": "백성은 안도하였으나 남쪽 방비는 그대로다.",
+          "effects": [ { "stat": "people", "value": 3 }, { "stat": "threat", "value": 5 } ] }
+      ]
+    },
+    {
+      "id": "imjin_war", "title": "왜군 부산 상륙", "priority": 100, "chance": 1, "once": true,
+      "minYear": 1592, "maxYear": 1592, "forbidFlags": ["war"],
+      "conditions": [ { "stat": "threat", "op": ">=", "value": 40 } ],
+      "source": "선조 25년(1592) 임진왜란",
+      "body": "왜적의 대군이 부산에 상륙하여 성을 함락하고 북상하고 있다는 급보이옵니다! 대신들 가운데 도성을 떠나 피하시라는 말이 나오고 있사옵니다.",
+      "choices": [
+        { "text": "도성을 지킨다. 군사를 모아 맞서라", "result": "임금이 도성에 남아 항전을 명하였다.", "action": "start_war",
+          "effects": [ { "stat": "authority", "value": 3 } ] },
+        { "text": "도성을 떠나 피난한다 (몽진)", "result": "임금이 도성을 버렸다.", "action": "flee" }
+      ]
+    },
+    {
+      "id": "imjin_averted", "title": "왜 사신이 물러가다", "priority": 100, "chance": 1, "once": true,
+      "minYear": 1592, "maxYear": 1592, "forbidFlags": ["war"],
+      "conditions": [ { "stat": "threat", "op": "<", "value": 40 } ],
+      "source": "가상 전개 — 대비가 충분했을 때",
+      "body": "왜의 사신이 와서 길을 빌려 달라 하였으나, 조선의 방비가 단단함을 보고 빈손으로 돌아갔다 하옵니다.",
+      "choices": [
+        { "text": "변방 장수들을 치하한다", "result": "남쪽 바다가 잠잠해졌다.", "action": "quiet_threat",
+          "effects": [ { "stat": "people", "value": 3 } ] }
+      ]
+    },
+    {
+      "id": "righteous_army", "title": "의병 봉기", "priority": 50, "chance": 0.6, "once": true,
+      "requireFlags": ["war"],
+      "body": "각지에서 선비와 백성이 스스로 의병을 일으켜 왜적과 싸우고 있사옵니다.",
+      "choices": [
+        { "text": "의병장에게 벼슬을 내리고 지원한다", "result": "의병이 크게 일어났다.",
+          "effects": [ { "stat": "military", "value": 8 }, { "stat": "treasury", "value": -4 }, { "stat": "people", "value": 3 } ] },
+        { "text": "의병을 관군에 편입시킨다", "result": "지휘는 하나로 모였으나 의병들의 기세가 꺾였다.",
+          "effects": [ { "stat": "military", "value": 5 }, { "stat": "authority", "value": 2 }, { "stat": "people", "value": -2 } ] }
+      ]
+    },
+    {
+      "id": "ming_aid", "title": "명에 원병 요청", "priority": 50, "chance": 0.5, "once": true,
+      "requireFlags": ["war"],
+      "body": "대신들이 명에 사신을 보내 원병을 청하자고 아뢰옵니다.",
+      "choices": [
+        { "text": "원병을 청한다", "result": "명군이 압록강을 건너왔다. 그 군량은 조선이 대야 한다.",
+          "effects": [ { "stat": "military", "value": 15 }, { "stat": "treasury", "value": -10 }, { "stat": "authority", "value": -3 } ] },
+        { "text": "우리 힘으로 막는다", "result": "임금의 결기에 조정이 숙연해졌다.",
+          "effects": [ { "stat": "authority", "value": 3 } ] }
+      ]
+    },
+    {
+      "id": "navy_victory", "title": "수군의 승전 장계", "priority": 40, "chance": 0.35, "once": false,
+      "requireFlags": ["war"],
+      "body": "남해의 수군이 왜의 배를 크게 깨뜨렸다는 장계가 올라왔사옵니다.",
+      "choices": [
+        { "text": "수군에 군량과 병선을 더 보낸다", "result": "바닷길이 막혀 왜군의 보급이 끊기고 있다.", "action": "enemy_loss",
+          "effects": [ { "stat": "treasury", "value": -6 } ] },
+        { "text": "장수들에게 상을 내린다", "result": "승전 소식에 백성이 기뻐한다.",
+          "effects": [ { "stat": "people", "value": 2 } ] }
+      ]
+    },
+    {
+      "id": "flee_proposal", "title": "몽진을 권하는 대신들", "priority": 60, "chance": 0.7, "once": true,
+      "requireFlags": ["war"],
+      "conditions": [ { "stat": "front", "op": ">=", "value": 60 } ],
+      "body": "적이 도성 가까이 이르렀사옵니다. 대신들이 엎드려 서둘러 북쪽으로 몸을 피하시라 아뢰옵니다.",
+      "choices": [
+        { "text": "끝까지 도성을 지킨다", "result": "임금이 갑옷을 입고 성루에 오르니 군사들이 힘을 낸다.",
+          "effects": [ { "stat": "military", "value": 3 }, { "stat": "people", "value": 4 }, { "stat": "health", "value": -3 } ] },
+        { "text": "도성을 떠난다 (몽진)", "result": "임금이 도성을 버렸다.", "action": "flee" }
+      ]
+    },
+    {
+      "id": "big_invasion", "title": "외적의 대거 침입", "priority": 90, "chance": 0.5, "once": false,
+      "minYear": 1593, "forbidFlags": ["war"],
+      "conditions": [ { "stat": "threat", "op": ">=", "value": 95 } ],
+      "body": "오랫동안 틈을 엿보던 외적이 마침내 대군을 일으켜 국경을 넘었사옵니다!",
+      "choices": [
+        { "text": "도성을 지킨다. 군사를 모아 맞서라", "result": "임금이 항전을 명하였다.", "action": "start_war" },
+        { "text": "도성을 떠나 피난한다 (몽진)", "result": "임금이 도성을 버렸다.", "action": "flee" }
+      ]
+    },
+    {
+      "id": "fiscal_crisis", "title": "곳간이 비다", "priority": 45, "chance": 1, "once": false,
+      "conditions": [ { "stat": "treasury", "op": "<", "value": 0 } ],
+      "source": "공명첩은 임진왜란 때 실제로 군량 마련을 위해 발행됨",
+      "body": "호조에서 아뢰기를, 곳간이 바닥나 관리들의 녹봉과 군량을 댈 길이 없다 하옵니다. 이대로 가면 나라 살림이 무너지옵니다.",
+      "choices": [
+        { "text": "공명첩을 팔아 재물을 모은다", "result": "이름 없는 벼슬첩이 팔려 나갔다. 벼슬이 가볍다는 말이 돈다.",
+          "effects": [ { "stat": "treasury", "value": 25 }, { "stat": "authority", "value": -4 }, { "stat": "people", "value": -2 } ] },
+        { "text": "내탕금(왕실 재산)을 푼다", "result": "임금이 왕실 곳간을 열었다. 신하들이 감읍한다.",
+          "effects": [ { "stat": "treasury", "value": 15 }, { "stat": "east", "value": 2 }, { "stat": "west", "value": 2 } ] },
+        { "text": "관원의 녹봉을 깎는다", "result": "관원들의 원망이 크다.",
+          "effects": [ { "stat": "treasury", "value": 12 }, { "stat": "east", "value": -4 }, { "stat": "west", "value": -4 } ] }
+      ]
+    },
+    {
+      "id": "drought", "title": "가뭄", "priority": 10, "chance": 0.25, "once": false,
+      "season": "summer",
+      "body": "여러 도에서 비가 오지 않아 모가 타들어 간다는 보고가 잇따르옵니다.",
+      "choices": [
+        { "text": "곡식을 풀어 진휼한다", "result": "굶주리는 이가 줄었다.",
+          "effects": [ { "stat": "treasury", "value": -10 }, { "stat": "people", "value": 4 } ] },
+        { "text": "기우제를 지낸다", "result": "임금이 몸소 기우제를 지냈다. 비는 아직 오지 않는다.",
+          "effects": [ { "stat": "people", "value": -2 }, { "stat": "authority", "value": 1 } ] },
+        { "text": "지켜본다", "result": "유랑민이 늘고 있다.",
+          "effects": [ { "stat": "people", "value": -10 } ] }
+      ]
+    },
+    {
+      "id": "epidemic", "title": "역병", "priority": 10, "chance": 0.06, "once": false,
+      "body": "도성 밖에 역병이 돌아 사람이 많이 죽어 나간다 하옵니다.",
+      "choices": [
+        { "text": "의원과 약재를 보낸다", "result": "역병이 조금씩 잦아든다.",
+          "effects": [ { "stat": "treasury", "value": -8 }, { "stat": "people", "value": -2 } ] },
+        { "text": "도성 문을 닫고 지켜본다", "result": "역병이 번져 원성이 높다.",
+          "effects": [ { "stat": "people", "value": -8 } ] }
+      ]
+    },
+    {
+      "id": "wako", "title": "왜구 노략질", "priority": 10, "chance": 0.12, "once": false,
+      "forbidFlags": ["war"],
+      "conditions": [ { "stat": "threat", "op": ">=", "value": 20 } ],
+      "body": "남해안에 왜구가 출몰하여 마을을 노략질하였다는 장계이옵니다.",
+      "choices": [
+        { "text": "수군을 내어 쫓는다", "result": "왜구가 물러갔다.",
+          "effects": [ { "stat": "military", "value": -2 }, { "stat": "treasury", "value": -4 }, { "stat": "people", "value": 2 } ] },
+        { "text": "작은 일이니 두고 본다", "result": "왜구가 더 대담해졌다.",
+          "effects": [ { "stat": "people", "value": -5 }, { "stat": "threat", "value": 3 } ] }
+      ]
+    },
+    {
+      "id": "heir_birth", "title": "원자 탄생", "priority": 20, "chance": 0.25, "once": false,
+      "forbidFlags": ["has_heir"],
+      "conditions": [ { "stat": "age", "op": ">=", "value": 18 } ],
+      "body": "경사이옵니다! 원자가 태어났사옵니다.",
+      "choices": [
+        { "text": "크게 축하 연회를 연다", "result": "온 나라가 경사를 기뻐한다.", "setFlags": ["has_heir"],
+          "effects": [ { "stat": "treasury", "value": -5 }, { "stat": "people", "value": 3 } ] },
+        { "text": "조촐히 축하한다", "result": "궁 안이 조용히 기뻐한다.", "setFlags": ["has_heir"] }
+      ]
+    },
+    {
+      "id": "king_ill", "title": "임금의 병환", "priority": 30, "chance": 0.25, "once": false,
+      "conditions": [ { "stat": "health", "op": "<", "value": 45 } ],
+      "body": "어의가 아뢰기를 옥체가 많이 상하셨으니 정사를 줄이고 정양하셔야 한다 하옵니다.",
+      "choices": [
+        { "text": "정양한다", "result": "며칠 정사를 대신들에게 맡기고 쉬었다.",
+          "effects": [ { "stat": "health", "value": 8 }, { "stat": "authority", "value": -3 } ] },
+        { "text": "무리해서라도 정사를 본다", "result": "임금의 근면함에 신하들이 감복하나 옥체가 더 상했다.",
+          "effects": [ { "stat": "health", "value": -5 }, { "stat": "authority", "value": 2 } ] }
+      ]
+    },
+    {
+      "id": "riot_signs", "title": "민란의 조짐", "priority": 40, "chance": 0.5, "once": false,
+      "conditions": [ { "stat": "people", "op": "<", "value": 25 } ],
+      "body": "여러 고을에서 백성들이 관아에 몰려가 소란을 피웠다 하옵니다. 큰 난리로 번질까 염려되옵니다.",
+      "choices": [
+        { "text": "세금을 감면해 달랜다", "result": "백성들이 조금 진정하였다.",
+          "effects": [ { "stat": "treasury", "value": -10 }, { "stat": "people", "value": 8 } ] },
+        { "text": "군사를 보내 진압한다", "result": "소란은 가라앉았으나 원한이 쌓였다.",
+          "effects": [ { "stat": "people", "value": -4 }, { "stat": "authority", "value": 3 }, { "stat": "military", "value": -3 } ] }
+      ]
+    },
+    {
+      "id": "coup_report", "title": "역모 고변", "priority": 40, "chance": 0.4, "once": false,
+      "conditions": [ { "stat": "authority", "op": "<", "value": 25 } ],
+      "body": "몇몇 신하가 은밀히 모여 임금을 바꾸려 한다는 고변이 들어왔사옵니다.",
+      "choices": [
+        { "text": "대대적으로 숙청한다", "result": "조정이 피바람에 떨었다.",
+          "effects": [ { "stat": "authority", "value": 8 }, { "stat": "east", "value": -5 }, { "stat": "west", "value": -5 }, { "stat": "people", "value": -3 } ] },
+        { "text": "덮어두고 지켜본다", "result": "임금이 나약하다는 소문이 돈다.",
+          "effects": [ { "stat": "authority", "value": -3 } ] }
+      ]
+    },
+    {
+      "id": "censor_remonstrance", "title": "사간원의 간언", "priority": 30, "chance": 0.3, "once": false,
+      "conditions": [ { "stat": "authority", "op": ">", "value": 80 } ],
+      "body": "사간원이 아뢰기를, 근래 성상께서 언로를 막고 독단하신다며 마음을 비우고 간언을 들으시라 하옵니다.",
+      "choices": [
+        { "text": "간언을 받아들인다", "result": "조정에 다시 말길이 열렸다.",
+          "effects": [ { "stat": "authority", "value": -5 }, { "stat": "people", "value": 3 } ] },
+        { "text": "물리친다", "result": "대간들이 사직하겠다며 물러갔다.",
+          "effects": [ { "stat": "authority", "value": 3 }, { "stat": "east", "value": -3 }, { "stat": "west", "value": -3 } ] }
+      ]
+    }
+  ]
+}

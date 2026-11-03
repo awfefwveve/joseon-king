@@ -1,0 +1,21 @@
+# Unity
+/Library/
+/Temp/
+/Obj/
+/Logs/
+/Build/
+/Builds/
+/UserSettings/
+/MemoryCaptures/
+/PlaytestShots/
+*.csproj
+*.sln
+*.user
+*.pidb
+*.booproj
+*.unityproj
+.vs/
+.vscode/
+.idea/
+# Tools
+/Tools/*.exe

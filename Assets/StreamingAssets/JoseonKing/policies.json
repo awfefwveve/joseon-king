@@ -1,0 +1,356 @@
+{
+  "items": [
+    {
+      "id": "tax_cut",
+      "name": "감세",
+      "cooldown": 2,
+      "description": "전세(田稅)와 잡세를 줄여 백성의 짐을 덜어준다. 국고가 준다.",
+      "effects": [
+        {
+          "stat": "people",
+          "value": 8
+        },
+        {
+          "stat": "treasury",
+          "value": -10
+        }
+      ],
+      "command": "세금을 줄여 백성의 짐을 덜라.",
+      "agenda": [
+        {
+          "stat": "people",
+          "op": "<",
+          "value": 45
+        }
+      ]
+    },
+    {
+      "id": "tax_raise",
+      "name": "증세",
+      "cooldown": 2,
+      "description": "세를 더 거두어 국고를 채운다. 민심이 떨어진다.",
+      "effects": [
+        {
+          "stat": "treasury",
+          "value": 15
+        },
+        {
+          "stat": "people",
+          "value": -8
+        }
+      ],
+      "command": "세를 더 거두어 곳간을 채우라.",
+      "agenda": [
+        {
+          "stat": "treasury",
+          "op": "<",
+          "value": 25
+        }
+      ]
+    },
+    {
+      "id": "relief",
+      "name": "진휼",
+      "cooldown": 2,
+      "description": "굶주린 백성에게 곡식을 풀어 구제한다.",
+      "effects": [
+        {
+          "stat": "people",
+          "value": 10
+        },
+        {
+          "stat": "treasury",
+          "value": -12
+        },
+        {
+          "stat": "east",
+          "value": 2
+        },
+        {
+          "stat": "west",
+          "value": 2
+        }
+      ],
+      "command": "곡식을 풀어 굶주린 백성을 구하라.",
+      "agenda": [
+        {
+          "stat": "people",
+          "op": "<",
+          "value": 40
+        }
+      ]
+    },
+    {
+      "id": "raise_army",
+      "name": "양병",
+      "cooldown": 2,
+      "description": "군사를 더 뽑고 훈련시켜 군세를 키운다. 돈과 민력이 든다.",
+      "effects": [
+        {
+          "stat": "military",
+          "value": 12
+        },
+        {
+          "stat": "treasury",
+          "value": -15
+        },
+        {
+          "stat": "people",
+          "value": -3
+        },
+        {
+          "stat": "east",
+          "value": -3
+        },
+        {
+          "stat": "west",
+          "value": 5
+        }
+      ],
+      "command": "군사를 더 뽑아 훈련시키라.",
+      "agenda": [
+        {
+          "stat": "threat",
+          "op": ">=",
+          "value": 35
+        }
+      ]
+    },
+    {
+      "id": "fortify",
+      "name": "성곽 수축",
+      "cooldown": 2,
+      "description": "성곽과 진보를 고쳐 쌓아 외적에 대비한다. 백성이 부역에 동원된다.",
+      "effects": [
+        {
+          "stat": "military",
+          "value": 5
+        },
+        {
+          "stat": "threat",
+          "value": -5
+        },
+        {
+          "stat": "treasury",
+          "value": -8
+        },
+        {
+          "stat": "people",
+          "value": -4
+        },
+        {
+          "stat": "east",
+          "value": 2
+        }
+      ],
+      "command": "성곽과 진보를 고쳐 쌓으라.",
+      "agenda": [
+        {
+          "stat": "threat",
+          "op": ">=",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "id": "tribute_reform",
+      "name": "공납 개혁",
+      "cooldown": 3,
+      "description": "특산물로 내던 공납을 쌀로 대신 내게 하는 수미법을 시행한다. 방납 이권을 쥔 자들이 반발한다.",
+      "effects": [
+        {
+          "stat": "people",
+          "value": 10
+        },
+        {
+          "stat": "treasury",
+          "value": 3
+        },
+        {
+          "stat": "authority",
+          "value": -3
+        },
+        {
+          "stat": "east",
+          "value": -4
+        },
+        {
+          "stat": "west",
+          "value": 2
+        }
+      ],
+      "command": "공물 대신 쌀로 내게 하는 수미법을 시행하라.",
+      "agenda": []
+    },
+    {
+      "id": "appoint_east",
+      "name": "동인 등용",
+      "cooldown": 2,
+      "description": "요직에 동인을 앉힌다.",
+      "effects": [
+        {
+          "stat": "east",
+          "value": 10
+        },
+        {
+          "stat": "west",
+          "value": -10
+        },
+        {
+          "stat": "authority",
+          "value": 2
+        }
+      ],
+      "command": "동인을 요직에 쓰라.",
+      "agenda": [
+        {
+          "stat": "east",
+          "op": "<",
+          "value": 40
+        }
+      ]
+    },
+    {
+      "id": "appoint_west",
+      "name": "서인 등용",
+      "cooldown": 2,
+      "description": "요직에 서인을 앉힌다.",
+      "effects": [
+        {
+          "stat": "west",
+          "value": 10
+        },
+        {
+          "stat": "east",
+          "value": -10
+        },
+        {
+          "stat": "authority",
+          "value": 2
+        }
+      ],
+      "command": "서인을 요직에 쓰라.",
+      "agenda": [
+        {
+          "stat": "west",
+          "op": "<",
+          "value": 40
+        }
+      ]
+    },
+    {
+      "id": "balance",
+      "name": "조제보합",
+      "cooldown": 2,
+      "description": "동인과 서인을 고루 등용해 붕당을 누그러뜨린다.",
+      "effects": [
+        {
+          "stat": "east",
+          "value": 4
+        },
+        {
+          "stat": "west",
+          "value": 4
+        },
+        {
+          "stat": "authority",
+          "value": -2
+        }
+      ],
+      "command": "동인과 서인을 고루 쓰라.",
+      "agenda": [
+        {
+          "stat": "faction_gap",
+          "op": ">=",
+          "value": 20
+        }
+      ]
+    },
+    {
+      "id": "envoy_japan",
+      "name": "일본 통신사 파견",
+      "cooldown": 4,
+      "revealsThreat": true,
+      "description": "일본에 통신사를 보내 그 나라 형편을 살핀다. 외침위협을 정확히 알게 된다.",
+      "effects": [
+        {
+          "stat": "treasury",
+          "value": -5
+        }
+      ],
+      "command": "일본에 통신사를 보내 그 나라 형편을 살피라.",
+      "agenda": [
+        {
+          "stat": "year",
+          "op": ">=",
+          "value": 1585
+        },
+        {
+          "stat": "threat",
+          "op": ">=",
+          "value": 30
+        }
+      ]
+    },
+    {
+      "id": "ming_relations",
+      "name": "명과 외교 강화",
+      "cooldown": 2,
+      "description": "명에 사신을 보내 관계를 두텁게 한다. 유사시 도움을 기대할 수 있다.",
+      "effects": [
+        {
+          "stat": "treasury",
+          "value": -6
+        },
+        {
+          "stat": "threat",
+          "value": -4
+        },
+        {
+          "stat": "west",
+          "value": 2
+        }
+      ],
+      "command": "명에 사신을 보내 관계를 두터이 하라.",
+      "agenda": [
+        {
+          "stat": "threat",
+          "op": ">=",
+          "value": 50
+        }
+      ]
+    },
+    {
+      "id": "suppress_censors",
+      "name": "언로 통제",
+      "cooldown": 3,
+      "description": "삼사의 간언을 누르고 왕명을 밀어붙인다. 왕권이 서지만 원성이 생긴다.",
+      "effects": [
+        {
+          "stat": "authority",
+          "value": 10
+        },
+        {
+          "stat": "people",
+          "value": -4
+        },
+        {
+          "stat": "east",
+          "value": -5
+        },
+        {
+          "stat": "west",
+          "value": -5
+        }
+      ],
+      "command": "삼사의 간언을 물리고 왕명을 받들게 하라.",
+      "agenda": [
+        {
+          "stat": "authority",
+          "op": "<",
+          "value": 35
+        }
+      ]
+    }
+  ]
+}

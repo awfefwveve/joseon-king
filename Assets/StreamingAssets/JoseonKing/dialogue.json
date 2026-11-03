@@ -1,0 +1,876 @@
+{
+ "items": [
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "tax_cut",
+   "context": "",
+   "stance": "",
+   "text": "세를 덜어 주시는 뜻은 거룩하오나, 공납의 폐단을 그대로 두면 백성의 짐은 줄지 않사옵니다. 근본을 함께 살피시옵소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "tax_raise",
+   "context": "",
+   "stance": "",
+   "text": "아니 되옵니다. 백성은 이미 공물과 부역에 지쳐 있사옵니다. 세를 더하기 전에 새는 곳부터 막으셔야 하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "relief",
+   "context": "",
+   "stance": "",
+   "text": "굶주린 백성을 구하는 일이니 마땅하옵니다. 다만 수령들이 중간에서 곡식을 가로채지 못하게 감독을 엄히 하소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "raise_army",
+   "context": "",
+   "stance": "",
+   "text": "나라의 기세가 약하니 미리 군사를 기르는 것이 옳사옵니다. 일이 터진 뒤에는 늦사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "fortify",
+   "context": "",
+   "stance": "",
+   "text": "성을 고치는 일도 필요하오나, 성을 지킬 군사와 군량이 먼저이옵니다. 순서를 헤아리소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "tribute_reform",
+   "context": "",
+   "stance": "",
+   "text": "신이 오래 아뢰어 온 일이옵니다. 공물을 쌀로 고르게 거두면 방납하는 무리의 농간이 사라지고 백성이 숨을 쉴 것이옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "appoint_east",
+   "context": "",
+   "stance": "",
+   "text": "한쪽 당만 쓰시면 다른 쪽의 원망이 쌓이옵니다. 사람을 보시되 당을 보지 마시옵소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "appoint_west",
+   "context": "",
+   "stance": "",
+   "text": "신이 서인과 가깝다 하나, 한쪽만 쓰시는 것은 나라에 이롭지 않사옵니다. 고루 쓰시옵소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "balance",
+   "context": "",
+   "stance": "",
+   "text": "동과 서를 고루 써서 서로 견제하고 돕게 하는 것이 조정을 살리는 길이옵니다. 지당하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "envoy_japan",
+   "context": "",
+   "stance": "",
+   "text": "이웃 나라의 형편을 아는 것은 해로울 것이 없사옵니다. 다만 보고 오는 자의 눈이 밝아야 하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "ming_relations",
+   "context": "",
+   "stance": "",
+   "text": "대국과의 예를 두터이 하는 것은 옳사오나, 내치를 바로잡는 일이 먼저이옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "suppress_censors",
+   "context": "",
+   "stance": "",
+   "text": "언로를 막으시면 아첨하는 자만 남사옵니다. 듣기 싫은 말을 들으셔야 나라가 바로 서옵니다. 거두어 주시옵소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "tax_cut",
+   "context": "",
+   "stance": "",
+   "text": "세를 덜면 백성은 좋아하겠으나 곳간이 비옵니다. 신은 반대하지는 않사오나 쓸 곳을 먼저 정하소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "tax_raise",
+   "context": "",
+   "stance": "",
+   "text": "나라 살림이 급하다면 어쩔 수 없사옵니다. 다만 백성의 원성은 각오하셔야 하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "relief",
+   "context": "",
+   "stance": "",
+   "text": "흉년에 백성을 구하는 것은 임금의 도리이옵니다. 따르겠사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "raise_army",
+   "context": "",
+   "stance": "",
+   "text": "군사를 기르는 데 반대할 까닭은 없사옵니다. 다만 그 돈을 어디서 마련할지가 문제이옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "fortify",
+   "context": "",
+   "stance": "",
+   "text": "성을 쌓는 일이라면 남쪽 해안부터 하심이 옳겠사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "tribute_reform",
+   "context": "",
+   "stance": "",
+   "text": "취지는 좋으나 방납으로 먹고사는 자들의 반발이 클 것이옵니다. 서두르지는 마소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "appoint_east",
+   "context": "",
+   "stance": "",
+   "text": "동인들은 말로만 청렴을 내세우는 자들이옵니다. 그들에게 요직을 맡기시면 조정이 어지러워질 것이옵니다. 아니 되옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "appoint_west",
+   "context": "",
+   "stance": "",
+   "text": "지당하옵니다. 믿을 만한 사람들로 조정을 채우셔야 기강이 서옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "balance",
+   "context": "",
+   "stance": "",
+   "text": "고루 쓰신다는 것은 듣기에는 좋으나, 사악한 무리와 바른 무리를 한데 섞는 것이옵니다. 신은 따를 수 없사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "envoy_japan",
+   "context": "",
+   "stance": "",
+   "text": "왜국의 사정을 살피는 것은 해로울 것이 없겠사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "ming_relations",
+   "context": "",
+   "stance": "",
+   "text": "대국을 섬기는 일이니 마땅하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "suppress_censors",
+   "context": "",
+   "stance": "",
+   "text": "삼사가 말을 앞세워 조정을 흔들고 있사옵니다. 기강을 세우셔야 하옵니다. 지당하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "tax_cut",
+   "context": "",
+   "stance": "",
+   "text": "백성의 짐을 덜어 주시는 것은 좋으나, 지금 곳간으로 군량까지 댈 수 있을지 따져 보셔야 하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "tax_raise",
+   "context": "",
+   "stance": "",
+   "text": "백성이 견디지 못할까 두렵사옵니다. 거두는 것보다 새는 것을 막는 편이 낫사옵니다. 거두어 주시옵소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "relief",
+   "context": "",
+   "stance": "",
+   "text": "백성이 굶으면 나라의 근본이 흔들리옵니다. 서둘러 곡식을 푸시고 수령들을 엄히 단속하소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "raise_army",
+   "context": "",
+   "stance": "",
+   "text": "변방의 일은 미리 대비해야 하옵니다. 군사를 기르고 쓸 만한 장수를 골라 두시옵소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "fortify",
+   "context": "",
+   "stance": "",
+   "text": "남쪽 성들이 허물어진 곳이 많사옵니다. 미리 고쳐 두어야 뜻밖의 변에 대비할 수 있사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "tribute_reform",
+   "context": "",
+   "stance": "",
+   "text": "공납의 폐단은 신도 알고 있사옵니다. 다만 고을마다 사정이 다르니 한 도에서 먼저 시험해 보심이 어떠하옵니까."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "appoint_east",
+   "context": "",
+   "stance": "",
+   "text": "사람을 쓰는 일은 당보다 재주를 보셔야 하옵니다. 신은 그 점만 아뢰옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "appoint_west",
+   "context": "",
+   "stance": "",
+   "text": "서인 가운데도 쓸 만한 이가 있사옵니다. 다만 한쪽으로 기울면 뒤탈이 있사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "balance",
+   "context": "",
+   "stance": "",
+   "text": "고루 쓰시는 뜻은 좋으나, 서로 발목을 잡지 않도록 맡길 일을 분명히 나누셔야 하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "envoy_japan",
+   "context": "",
+   "stance": "",
+   "text": "왜국의 사정을 정확히 아는 것이 대비의 시작이옵니다. 눈 밝은 자를 보내소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "ming_relations",
+   "context": "",
+   "stance": "",
+   "text": "유사시 대국의 도움이 필요할 수 있사옵니다. 예를 갖추어 두는 것이 좋겠사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "suppress_censors",
+   "context": "",
+   "stance": "",
+   "text": "삼사의 말이 귀에 거슬리더라도 막으시면 안 되옵니다. 다만 지나친 논박은 단속하실 만하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_sanhae",
+   "policy": "tax_cut",
+   "context": "",
+   "stance": "",
+   "text": "백성은 기뻐하겠사오나 호조가 곤란해할 것이옵니다. 신은 성상의 뜻에 따르겠사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_sanhae",
+   "policy": "tax_raise",
+   "context": "",
+   "stance": "",
+   "text": "곳간이 비었다면 어쩔 수 없겠사옵니다. 다만 시기를 잘 고르셔야 하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_sanhae",
+   "policy": "relief",
+   "context": "",
+   "stance": "",
+   "text": "흉년의 진휼은 마땅한 일이옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_sanhae",
+   "policy": "raise_army",
+   "context": "",
+   "stance": "",
+   "text": "군사를 기르는 것도 좋으나 백성에게 부담이 가지 않게 해야 하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_sanhae",
+   "policy": "fortify",
+   "context": "",
+   "stance": "",
+   "text": "성을 고치는 일은 필요하나, 부역에 동원되는 백성의 원망도 헤아리소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_sanhae",
+   "policy": "tribute_reform",
+   "context": "",
+   "stance": "",
+   "text": "공납을 한꺼번에 바꾸면 고을마다 혼란이 일 것이옵니다. 오래 이어 온 법을 가벼이 고치는 것은 위험하옵니다. 아니 되옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_sanhae",
+   "policy": "appoint_east",
+   "context": "",
+   "stance": "",
+   "text": "지당하옵니다. 학문이 바르고 청렴한 이들을 쓰시면 조정이 맑아질 것이옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_sanhae",
+   "policy": "appoint_west",
+   "context": "",
+   "stance": "",
+   "text": "서인들이 요직을 차지하면 외척과 권신의 폐단이 되살아날까 두렵사옵니다. 아니 되옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_sanhae",
+   "policy": "balance",
+   "context": "",
+   "stance": "",
+   "text": "고루 쓰시는 뜻은 알겠사오나, 누구를 어디에 쓰실지가 더 중하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_sanhae",
+   "policy": "envoy_japan",
+   "context": "",
+   "stance": "",
+   "text": "사신을 보내는 데 드는 비용이 적지 않으나, 형편을 알아 두는 것도 나쁘지 않겠사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_sanhae",
+   "policy": "ming_relations",
+   "context": "",
+   "stance": "",
+   "text": "대국과의 관계는 늘 두터워야 하옵니다. 따르겠사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_sanhae",
+   "policy": "suppress_censors",
+   "context": "",
+   "stance": "",
+   "text": "삼사를 누르시면 당장은 조용하겠으나 뒷말이 많을 것이옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "tax_cut",
+   "context": "",
+   "stance": "",
+   "text": "세를 줄이시면 군량은 어디서 나옵니까. 신은 반대하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "tax_raise",
+   "context": "",
+   "stance": "",
+   "text": "군량을 마련할 수 있다면 신은 따르겠사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "relief",
+   "context": "",
+   "stance": "",
+   "text": "백성이 굶으면 군사도 굶사옵니다. 따르겠사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "raise_army",
+   "context": "",
+   "stance": "",
+   "text": "지당하옵니다! 군사가 없으면 나라도 없사옵니다. 신에게 맡겨 주시옵소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "fortify",
+   "context": "",
+   "stance": "",
+   "text": "성이 튼튼해야 군사가 버티옵니다. 서두르소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "tribute_reform",
+   "context": "",
+   "stance": "",
+   "text": "신은 무인이라 공납의 일은 잘 모르옵니다. 다만 군량이 줄지 않게 해 주소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "appoint_east",
+   "context": "",
+   "stance": "",
+   "text": "신은 당을 모르옵니다. 싸울 줄 아는 자를 써 주소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "appoint_west",
+   "context": "",
+   "stance": "",
+   "text": "신은 당을 모르옵니다. 변방을 아는 자를 써 주소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "balance",
+   "context": "",
+   "stance": "",
+   "text": "조정이 하나가 되어야 변방도 버티옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "envoy_japan",
+   "context": "",
+   "stance": "",
+   "text": "적을 알아야 이기옵니다. 보내소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "ming_relations",
+   "context": "",
+   "stance": "",
+   "text": "급할 때 원병을 청할 수 있게 해 두는 것은 나쁘지 않사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "suppress_censors",
+   "context": "",
+   "stance": "",
+   "text": "신은 조정의 말싸움에 낄 자격이 없사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "raise_army",
+   "context": "war",
+   "stance": "",
+   "text": "적이 코앞에 있사옵니다! 한 명이라도 더 뽑아 내려보내소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "fortify",
+   "context": "war",
+   "stance": "",
+   "text": "지금 성을 쌓기에는 늦었사옵니다. 있는 성이라도 지킬 군사를 보내소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "tax_cut",
+   "context": "war",
+   "stance": "",
+   "text": "싸움 중에 세를 줄이시면 군사들이 굶어 죽사옵니다. 절대 아니 되옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "raise_army",
+   "context": "war",
+   "stance": "",
+   "text": "적이 북상하고 있사옵니다. 흩어진 군사를 모으고 의병과 힘을 합치게 하소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "relief",
+   "context": "war",
+   "stance": "",
+   "text": "난리 통에 백성이 굶으면 적보다 굶주림이 더 많은 목숨을 앗아 가옵니다. 곡식을 푸소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "ming_relations",
+   "context": "war",
+   "stance": "",
+   "text": "이 지경이 되었으니 대국에 원병을 청하는 길밖에 없사옵니다. 서두르소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "raise_army",
+   "context": "war",
+   "stance": "",
+   "text": "늦었으나 지금이라도 군사를 모아야 하옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "tax_raise",
+   "context": "war",
+   "stance": "",
+   "text": "전쟁 중이니 군량을 거두는 데 머뭇거릴 수 없사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "tax_cut",
+   "context": "poor",
+   "stance": "",
+   "text": "곳간이 이미 비었사옵니다. 지금 세를 줄이시면 관원 녹봉도 못 대옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "sin_rip",
+   "policy": "raise_army",
+   "context": "poor",
+   "stance": "",
+   "text": "곳간이 비어도 군사는 길러야 하옵니다. 다만 군량을 어디서 댈지 호조와 의논하소서."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_i",
+   "policy": "tax_raise",
+   "context": "poor",
+   "stance": "",
+   "text": "곳간이 빈 것은 알고 있사오나, 백성에게서 더 짜내면 나라의 뿌리가 마르옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "jeong_cheol",
+   "policy": "tax_raise",
+   "context": "poor",
+   "stance": "",
+   "text": "곳간이 비었으니 다른 길이 없사옵니다. 신은 따르겠사옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "ryu_seongryong",
+   "policy": "relief",
+   "context": "unrest",
+   "stance": "",
+   "text": "민심이 흉흉하옵니다. 지금 곡식을 풀지 않으시면 큰 난리가 날 것이옵니다."
+  },
+  {
+   "kind": "opinion",
+   "minister": "yi_sanhae",
+   "policy": "tax_raise",
+   "context": "unrest",
+   "stance": "",
+   "text": "지금처럼 민심이 흉흉할 때 세를 더하시면 불에 기름을 붓는 격이옵니다."
+  },
+  {
+   "kind": "weak_tail",
+   "minister": "*",
+   "policy": "*",
+   "context": "",
+   "stance": "",
+   "text": "……하오나 조정 안팎에서 성상의 뜻을 가볍게 여기는 말이 돌고 있사옵니다."
+  },
+  {
+   "kind": "weak_tail",
+   "minister": "*",
+   "policy": "*",
+   "context": "",
+   "stance": "",
+   "text": "(대신이 고개를 들어 임금을 똑바로 바라본다. 예전 같으면 없던 일이다.)"
+  },
+  {
+   "kind": "weak_tail",
+   "minister": "*",
+   "policy": "*",
+   "context": "",
+   "stance": "",
+   "text": "……어명을 내리셔도 따를 자가 얼마나 될지 모르겠사옵니다."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "tax_cut",
+   "context": "",
+   "stance": "",
+   "text": "전하, 근래 세가 무거워 백성들이 고통받고 있사옵니다. 전세를 줄여 주심이 어떠하옵니까."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "tax_raise",
+   "context": "",
+   "stance": "",
+   "text": "전하, 호조의 곳간이 비어 가옵니다. 세를 더 거두지 않으면 나라 살림을 꾸릴 수 없사옵니다."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "relief",
+   "context": "",
+   "stance": "",
+   "text": "전하, 여러 고을에서 굶주리는 백성이 늘고 있사옵니다. 곡식을 풀어 진휼하심이 옳겠사옵니다."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "raise_army",
+   "context": "",
+   "stance": "",
+   "text": "전하, 변방이 심상치 않사옵니다. 미리 군사를 더 뽑아 훈련시켜야 하옵니다."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "fortify",
+   "context": "",
+   "stance": "",
+   "text": "전하, 남쪽 해안의 성과 진보가 낡아 허물어진 곳이 많사옵니다. 고쳐 쌓도록 명하여 주시옵소서."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "tribute_reform",
+   "context": "",
+   "stance": "",
+   "text": "전하, 공물을 대신 바치고 몇 곱절을 뜯어 가는 방납의 폐단이 심하옵니다. 공물을 쌀로 거두는 수미법을 시행하소서."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "appoint_east",
+   "context": "",
+   "stance": "",
+   "text": "전하, 조정에 바른 선비가 드무옵니다. 학문이 깊고 청렴한 이들을 요직에 쓰소서."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "appoint_west",
+   "context": "",
+   "stance": "",
+   "text": "전하, 요직에 경험 많은 이들이 줄었사옵니다. 믿을 만한 노성한 신하들을 다시 쓰소서."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "balance",
+   "context": "",
+   "stance": "",
+   "text": "전하, 동과 서가 날마다 서로를 헐뜯어 조정이 둘로 갈라졌사옵니다. 양쪽을 고루 쓰시어 화합하게 하소서."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "envoy_japan",
+   "context": "",
+   "stance": "",
+   "text": "전하, 왜국에 새 우두머리가 섰다는 말이 들리옵니다. 통신사를 보내 그 속셈을 살피소서."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "ming_relations",
+   "context": "",
+   "stance": "",
+   "text": "전하, 바깥이 시끄러운 때이옵니다. 대국에 사신을 보내 관계를 두터이 해 두소서."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "suppress_censors",
+   "context": "",
+   "stance": "",
+   "text": "전하, 삼사가 날마다 논박만 일삼아 어명이 서지 않사옵니다. 기강을 세우소서."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "raise_army",
+   "context": "war",
+   "stance": "",
+   "text": "전하, 적이 북상하고 있사옵니다! 각 도에 명하여 군사를 모으소서."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "relief",
+   "context": "war",
+   "stance": "",
+   "text": "전하, 난리 통에 피란민이 길에 가득하옵니다. 곡식을 풀어 살려 주소서."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "ming_relations",
+   "context": "war",
+   "stance": "",
+   "text": "전하, 우리 힘만으로는 버티기 어렵사옵니다. 대국에 원병을 청하는 사신을 보내소서."
+  },
+  {
+   "kind": "propose",
+   "minister": "*",
+   "policy": "tax_raise",
+   "context": "poor",
+   "stance": "",
+   "text": "전하, {rice}으로는 한 철도 버티기 어렵사옵니다. 세를 더 거두소서."
+  },
+  {
+   "kind": "approved",
+   "minister": "*",
+   "policy": "*",
+   "context": "",
+   "stance": "support",
+   "text": "성상의 영단이시옵니다. 받들어 행하겠사옵니다."
+  },
+  {
+   "kind": "approved",
+   "minister": "*",
+   "policy": "*",
+   "context": "",
+   "stance": "oppose",
+   "text": "전하의 뜻이 그러하시니 신은 물러나 따르겠사옵니다. 다만 뒷날의 폐단을 잊지 마시옵소서."
+  },
+  {
+   "kind": "rejected",
+   "minister": "*",
+   "policy": "*",
+   "context": "",
+   "stance": "support",
+   "text": "……신의 말이 부족하였사옵니다. 다시 헤아려 주시기를 바라옵니다."
+  },
+  {
+   "kind": "rejected",
+   "minister": "*",
+   "policy": "*",
+   "context": "",
+   "stance": "oppose",
+   "text": "현명하신 판단이시옵니다."
+  },
+  {
+   "kind": "approved",
+   "minister": "yi_i",
+   "policy": "tribute_reform",
+   "context": "",
+   "stance": "support",
+   "text": "백성들이 이 소식을 들으면 춤을 출 것이옵니다. 신의 오랜 소원이 이루어졌사옵니다."
+  },
+  {
+   "kind": "rejected",
+   "minister": "yi_i",
+   "policy": "tribute_reform",
+   "context": "",
+   "stance": "support",
+   "text": "폐단을 알면서도 고치지 않으면 백성의 원망은 결국 조정으로 돌아오옵니다……."
+  },
+  {
+   "kind": "approved",
+   "minister": "yi_sanhae",
+   "policy": "tribute_reform",
+   "context": "",
+   "stance": "oppose",
+   "text": "……시행하시되, 고을마다 혼란이 없도록 살피셔야 할 것이옵니다."
+  },
+  {
+   "kind": "approved",
+   "minister": "jeong_cheol",
+   "policy": "balance",
+   "context": "",
+   "stance": "oppose",
+   "text": "신은 끝내 이 일이 옳다고 보지 않사옵니다. 두고 보시옵소서."
+  },
+  {
+   "kind": "approved",
+   "minister": "jeong_cheol",
+   "policy": "appoint_east",
+   "context": "",
+   "stance": "oppose",
+   "text": "조정이 어지러워지는 것은 시간문제이옵니다……."
+  },
+  {
+   "kind": "approved",
+   "minister": "yi_sanhae",
+   "policy": "appoint_west",
+   "context": "",
+   "stance": "oppose",
+   "text": "……신은 할 말이 없사옵니다."
+  },
+  {
+   "kind": "approved",
+   "minister": "sin_rip",
+   "policy": "raise_army",
+   "context": "",
+   "stance": "support",
+   "text": "신이 직접 군사를 조련하겠사옵니다!"
+  },
+  {
+   "kind": "rejected",
+   "minister": "sin_rip",
+   "policy": "raise_army",
+   "context": "",
+   "stance": "support",
+   "text": "적이 오면 그때 가서 군사를 찾으시겠사옵니까!"
+  },
+  {
+   "kind": "rejected",
+   "minister": "sin_rip",
+   "policy": "fortify",
+   "context": "",
+   "stance": "support",
+   "text": "무너진 성으로는 아무것도 지킬 수 없사옵니다……."
+  },
+  {
+   "kind": "approved",
+   "minister": "yi_i",
+   "policy": "suppress_censors",
+   "context": "",
+   "stance": "oppose",
+   "text": "언로가 막히면 나라가 병드옵니다. 신은 이 말씀을 거두어 주시기를 끝까지 청하옵니다."
+  },
+  {
+   "kind": "approved",
+   "minister": "ryu_seongryong",
+   "policy": "tax_raise",
+   "context": "",
+   "stance": "oppose",
+   "text": "백성이 견딜 수 있을지 신은 두렵사옵니다……."
+  },
+  {
+   "kind": "rejected",
+   "minister": "ryu_seongryong",
+   "policy": "relief",
+   "context": "",
+   "stance": "support",
+   "text": "굶주린 백성이 떠돌면 도적이 되옵니다. 다시 생각해 주소서."
+  }
+ ]
+}
